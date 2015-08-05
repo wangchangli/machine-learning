@@ -33,7 +33,6 @@ J = J + lambda*regularized/(2*m);
 
 regularized = (lambda/m)*theta;
 regularized(1) = 0;
-regularized;
 grad=(((sigmoid(X*theta)-y).'*X)/m).' + regularized;
 
 
